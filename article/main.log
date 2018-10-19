@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  14 OCT 2018 20:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  19 OCT 2018 21:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -24,9 +24,6 @@ File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texlive/texmf-dist/tex/latex/cmap/cmap.sty
-Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
-)
 (/usr/share/texlive/texmf-dist/tex/latex/t2/mathtext.sty
 Package: mathtext 1999/01/28 v1.0 transparent text-and-math defs
 LaTeX Info: Redefining \halign on input line 111.
@@ -43,7 +40,7 @@ LaTeX Font Info:    Try loading font information for T2A+cmr on input line 105.
 
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)<<t2a.cmap>>)
+))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
@@ -370,17 +367,7 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \c@streamvline=\count113
 )
 \c@authors=\count114
-) (./main.aux
-
-LaTeX Warning: Label `s1' multiply defined.
-
-
-LaTeX Warning: Label `s2' multiply defined.
-
-
-LaTeX Warning: Label `s3' multiply defined.
-
-(./authors.aux) (./links.aux))
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -500,9 +487,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 LaTeX Font Info:    Try loading font information for U+msa on input line 43.
-
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -538,112 +523,64 @@ LaTeX Font Info:    Try loading font information for U+euex on input line 43.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuex.fd
 File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
 )
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 43.
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <5> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 43.
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
-
 (./familia/familia.tex
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 9.
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <7> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <5> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 9.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
-<./familia/familia1.jpg, id=6, 602.25pt x 401.5pt>
-File: ./familia/familia1.jpg Graphic file (type jpg)
-<use ./familia/familia1.jpg>
-Package pdftex.def Info: ./familia/familia1.jpg  used on input line 30.
-(pdftex.def)             Requested size: 214.76054pt x 143.17207pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./familia/familia2.jpg, id=7, 361.35pt x 492.84125pt>
-File: ./familia/familia2.jpg Graphic file (type jpg)
-<use ./familia/familia2.jpg>
-Package pdftex.def Info: ./familia/familia2.jpg  used on input line 40.
-(pdftex.def)             Requested size: 104.97076pt x 143.17207pt.
-<./familia/familia3.jpg, id=8, 576.65437pt x 657.95813pt>
-File: ./familia/familia3.jpg Graphic file (type jpg)
-<use ./familia/familia3.jpg>
-Package pdftex.def Info: ./familia/familia3.jpg  used on input line 44.
-(pdftex.def)             Requested size: 125.4741pt x 143.17207pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-File: ./familia/familia2.jpg Graphic file (type jpg)
-<use ./familia/familia2.jpg>
-Package pdftex.def Info: ./familia/familia2.jpg  used on input line 69.
-(pdftex.def)             Requested size: 104.97076pt x 143.17207pt.
-File: ./familia/familia3.jpg Graphic file (type jpg)
-<use ./familia/familia3.jpg>
-Package pdftex.def Info: ./familia/familia3.jpg  used on input line 74.
-(pdftex.def)             Requested size: 125.4741pt x 143.17207pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[2 <./familia/familia1.jpg> <./familia/familia2.jpg> <./familia/familia3.jpg>]
-Underfull \hbox (badness 1189) in paragraph at lines 116--117
+[2]
+Underfull \hbox (badness 1189) in paragraph at lines 81--82
 \T2A/cmr/m/n/10.95 of polarization attributes of seismic waves using continuous
  wavelet transforms //
  []
 
-
-Underfull \hbox (badness 1184) in paragraph at lines 129--130
-\T2A/cmr/m/n/10.95 of polarization attributes of seismic waves using continuous
- wavelet transforms //
- []
-
-) [3] (./main.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+) [3] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 6492 strings out of 494283
- 91841 string characters out of 6169690
- 157997 words of memory out of 5000000
- 9570 multiletter control sequences out of 15000+600000
- 26300 words of font info for 72 fonts, out of 8000000 for 9000
+ 6368 strings out of 494283
+ 89933 string characters out of 6169690
+ 156836 words of memory out of 5000000
+ 9534 multiletter control sequences out of 15000+600000
+ 25387 words of font info for 69 fonts, out of 8000000 for 9000
  497 hyphenation exceptions out of 8191
- 41i,11n,42p,3825b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/paul/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1095.600pk>
- </home/paul/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk> <
-/home/paul/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1000.600pk> </h
-ome/paul/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk> </hom
-e/paul/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/
-paul/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0900.600pk> </home/pa
-ul/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1095.600pk> </home/paul
-/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasl1095.600pk> </home/paul/.
-texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1095.600pk></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
->
-Output written on main.pdf (3 pages, 323698 bytes).
+ 41i,8n,38p,3822b,304s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/paul/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t
+2a/labx1095.600pk> </home/paul/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a
+/labx1200.600pk> </home/paul/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/l
+abx1000.600pk> </home/paul/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lar
+m1000.600pk> </home/paul/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1
+440.600pk> </home/paul/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm090
+0.600pk> </home/paul/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1095.
+600pk> </home/paul/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasl1095.60
+0pk> </home/paul/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1095.600p
+k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/symbols/msbm10.pfb>
+Output written on main.pdf (3 pages, 184158 bytes).
 PDF statistics:
- 461 PDF objects out of 1000 (max. 8388607)
+ 428 PDF objects out of 1000 (max. 8388607)
  71 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
