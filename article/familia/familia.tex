@@ -63,8 +63,10 @@ v_1P+v_2Q & = & \left(x_b, y_b\right) \nonumber \\
 Полученное в (\ref{v}) $\hat{r}$ должно совпасть с $r$
 
 \section{Представления точек}
+
 Сложение, а тем более умножение точки на число является затратной операцией: в стандартных координатах в кривых над полями с характеристикой, отличной от 2 и 3, сложение точек выглядит следующим образом. Пусть $P=(x_P, y_P), Q=(x_Q, y_Q) \in E, P\neq \pm Q$. Тогда для $R=P+Q$
 \begin{equation}
+\label{addition}
 x_R = \left(\frac{y_Q-y_P}{x_Q-x_P}\right)^2-x_P-x_Q,\quad y_R = \left(\frac{y_Q-y_P}{x_Q-x_P}\right)\left(x_P-x_R\right)-y_P
 \end{equation}
 Видно, что для сложения точек требуется инверсия и умножение в поле. Первая является особенно дорогостоящей операцией, и от нее хотелось бы избавиться. Это позволяют сделать другие координатные системы\cite{s2}, которые позволяют добиться лучшей производительности за счет дополнительной информации. Одним из таких представлений являются проективные координаты.
@@ -73,11 +75,56 @@ x_R = \left(\frac{y_Q-y_P}{x_Q-x_P}\right)^2-x_P-x_Q,\quad y_R = \left(\frac{y_Q
 \begin{equation}
 \left(X_1, Y_1, Z_1\right) \sim \left(X_2, Y_2, Z_2\right) \Leftrightarrow \exists \lambda \in K: X_1=\lambda^cX_2, Y_1 = \lambda^dY_2, Z_1=\lambda Z_2
 \end{equation}
-Оно разбивает $K^3\setminus \left\lbrace \left(0,0,0\right) \right\rbrace$ на классы эквивалентности. При этом либо у всех представителей класса $Z=0$, либо есть представитель с $Z=1$. Сопоставим точке $P = \left(X, Y\right)$ на кривой класс с представителем $\left(X, Y, 1\right)$. Если подставить в \ref{curve} $x=\frac{X}{Z^c}, y=\frac{y}{Z^d}$ и избавиться от знаменателя, то можно получить уравнение кривой в проективных кординатах. Классы с $Z=0$, удовлетворяющие уравнению, будут считаться точками на бесконечности. Различный выбор c и d порождает разные виды проективных координат:
+Оно разбивает $K^3\setminus \left\lbrace \left(0,0,0\right) \right\rbrace$ на классы эквивалентности. Эти классы эквивалентности будем называть проективными точками. Отметим, что при этом либо у всех представителей класса $Z=0$, либо есть представитель с $Z=1$. Сопоставим точке $P = \left(X, Y\right)$ на кривой класс с представителем $\left(X, Y, 1\right)$. Если подставить в \ref{curve} $x=\frac{X}{Z^c}, y=\frac{y}{Z^d}$ и избавиться от знаменателя, то можно получить уравнение кривой в проективных кординатах. Проективные точки с $Z=0$, удовлетворяющие уравнению, будут считаться точками на бесконечности. Различный выбор c и d порождает разные виды проективных координат:
 \paragraph{Стандартные проективные координаты: $c=1,\,d=1$}
 
-\section{Заключение}
+В данном случае проективной точке $\left(X:Y:Z\right), Z\neq 0$, сопоставляется афинная точка $\left(\frac{X}{Z}, \frac{Y}{Z}\right)$. При подстановке (\ref{curve}) переходит в 
+\begin{equation}
+\label{curve_1}
+Y^2Z=X^3+aX^2Z+bZ^3
+\end{equation}
+Этому уравнению удовлетворяет точка $\left(0:1:0\right)$ - ей будет соответствовать афинная точка $\infty$. Заменим в (\ref{addition}) афинные координаты на проективные, при этом в выражении для ${Y'}_R$ учтя, что $x_P-x_R=2*x_P+x_Q-\left(\frac{y_Q-y_P}{x_Q-x_P}\right)^2$:
+\begin{eqnarray}
+\text{Пусть  } M & = & Y_QZ_P-Y_PZ_Q,\quad N=X_QZ_P-X_PZ_Q.\quad\text{Тогда} \nonumber \\
+X_R' & = & \left(\frac{M}{N}\right)^2-\frac{X_PZ_Q+X_QZ_P}{Z_PZ_Q} = \frac{M^2Z_PZ_Q-N^2\left(X_PZ_Q+X_QZ_P\right)}{N^2Z_PZ_Q}\nonumber \\
+Y_R' & = & \left(\frac{M}{N}\right)\left(2*\frac{X_P}{Z_P}+\frac{X_Q}{Z_Q}-\left(\frac{M}{N}\right)^2\right) - \frac{Y_P}{Z_P} =\nonumber \\
+& = & \frac{M\left(N^2\left(2*X_PZ_Q+X_QZ_P\right)-M^2Z_PZ_Q\right)}{N^3Z_PZ_Q} - \frac{Y_P}{Z_P}\nonumber
+\end{eqnarray}
+Пользуясь соотношением эквивалентности, избавимся от знаменателя, задав $Z_R = N^3Z_PZ_Q$:
+\begin{eqnarray}
+X_R & = & NM^2Z_PZ_Q-N^3\left(X_PZ_Q+X_QZ_P\right)\nonumber \\
+Y_R & = & M\left(N^2\left(2*X_PZ_Q+X_QZ_P\right)-M^2Z_PZ_Q\right) - Y_PZ_QN^3 \\
+Z_R & = & N^3Z_PZ_Q \nonumber
+\end{eqnarray}
 
+Аналогичным образом выводятся формулы для удвоения точки:
+\begin{eqnarray}
+X_R & = & M^2N-4N^2X_PY_P \nonumber \\
+Y_R & = & 6X_PY_PMN-M^3-2N^2Y_P^2 \\
+Z_R & = & N^3, \nonumber
+\end{eqnarray}
+где $M=3X_P+aZ_P^2,N=2Y_PZ_P$. Как видно, в случае выбора этих кординат нет нужды производить инверсию в поле - операцию гораздо более трудоемкую, нежели сложение или умножение.
+\paragraph{Проективные координаты Якоби: $c=2, d=3$}
+
+Проективной точке $\left(X:Y:Z\right), Z\neq 0$, сопоставляется афинная точка $\left(\frac{X}{Z^2}, \frac{Y}{Z^3}\right)$. Уравнение кривой выглядит следующим образом:
+\begin{equation}
+\label{curve_2}
+Y^2=X^3+aXZ^4+bZ^6
+\end{equation}
+Используя рассуждения, подобные использовавшимся в предыдущем пункте, получаем формулы для сложения
+\begin{eqnarray}
+M & = & Y_QZ_P^3-Y_PZ_Q^3,\quad N = X_QZ_P^2-X_PZ_Q^2 \nonumber \\
+X_R & = & M^2 - N^2\left(X_PZ_Q^2+X_QZ_P^2\right) \\
+Y_R & = & MN^2\left(2X_PZ_Q^2+X_QZ_P^2\right)-M^3-Y_PZ_Q^3N^3 \nonumber \\
+Z_R & = & Z_PZ_QN \nonumber
+\end{eqnarray}
+и удвоения:
+\begin{eqnarray}
+X_R & = & \left(3X_P^2+aZ_P^4\right)^2-8X_PY_P^2 \nonumber \\
+Y_R & = & \left(3X_P^2+aZ_P^4\right)\left(4X_PY_P^2-X_R\right)-8Y_P^4 \\
+Z_R & = & 2Y_PZ_P \nonumber
+\end{eqnarray}
+\section{Заключение}
 Текст заключения.
 
 \hfil \hbox to 0.3\textwidth{\hrulefill} \smallskip
