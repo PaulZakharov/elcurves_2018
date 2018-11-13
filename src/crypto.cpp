@@ -10,17 +10,17 @@
 #include "params.h"
 
 #ifdef JACOBI
-  #define     HFILE "jacobi.h"
-  #define     BuildName "JACOBI\t"
+  #define HFILE "jacobi.h"
+  #define BuildName "JACOBI\t"
 #elif PROJECTIVE
-    #define   HFILE "projectivePoint.h"
-    #define   BuildName "PROJECTIVE"
+  #define HFILE "projectivePoint.h"
+  #define BuildName "PROJECTIVE"
 #else
-     #define  HFILE "point.h"
-     #define  BuildName "STANDART"
+  #define HFILE "point.h"
+  #define BuildName "STANDART"
 #endif
 
-#include    HFILE
+#include  HFILE
 
 
 using namespace std;
