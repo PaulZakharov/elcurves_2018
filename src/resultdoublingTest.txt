@@ -1,0 +1,12 @@
+Doubling: 100000 раз CURVE1 STANDART		3.05388 в секундах
+Doubling: 100000 раз CURVE1 PROJECTIVE		1.2355 в секундах
+Doubling: 100000 раз CURVE1 JACOBI			1.59662 в секундах
+Doubling: 100000 раз CURVE2 STANDART		3.25148 в секундах
+Doubling: 100000 раз CURVE2 PROJECTIVE		1.0643 в секундах
+Doubling: 100000 раз CURVE2 JACOBI			1.33454 в секундах
+Doubling: 100000 раз CURVE3 STANDART		2.73157 в секундах
+Doubling: 100000 раз CURVE3 PROJECTIVE		1.2113 в секундах
+Doubling: 100000 раз CURVE3 JACOBI			1.83558 в секундах
+Doubling: 100000 раз CURVE4 STANDART		4.34319 в секундах
+Doubling: 100000 раз CURVE4 PROJECTIVE		1.31665 в секундах
+Doubling: 100000 раз CURVE4 JACOBI			1.84997 в секундах

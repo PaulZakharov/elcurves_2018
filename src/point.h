@@ -44,7 +44,7 @@ public:
 std::ostream& operator << (std::ostream& os, const Point& pnt)
 {
 	if (!pnt.Infinity)
-		os << '(' << pnt.x << "  " << pnt.y << ')' << " ";
+		os << "\t X = " << pnt.x  << "\n \t Y = " << pnt.y;
 	else
 		os << "(inf, inf)";
 
@@ -62,34 +62,38 @@ Point Point::operator+(Point const & P2) const
 		return P1;
 	if (P1 == -P2)
 		return Point(0, 0, true);
-	CryptoPP::Integer x3 =  MOD.Divide(P2.y - P1.y, P2.x - P1.x);
+	CryptoPP::Integer t = (P2.y - P1.y).Modulo(p);
+	CryptoPP::Integer z = (P2.x - P1.x).Modulo(p);
+	CryptoPP::Integer x3 =  MOD.Divide(t, z);
 	x3 = MOD.Square(x3);
 	x3 = (x3 -  P1.x);
 	x3 = (x3 -  P2.x);
 
-	CryptoPP::Integer y3 =  MOD.Divide(P2.y - P1.y, P2.x - P1.x);
+	CryptoPP::Integer y3 =  MOD.Divide(t, z);
 	y3 = (y3 * (P1.x - x3));
 	y3 = (y3 - P1.y);
-
 	return Point(x3, y3);
 }
 
 
 Point Point::doubling() const
 {
-  if (Infinity)
-    return *this;
-  if (*this == (-(*this)))
-    return Point(0, 0, true);
-  CryptoPP::Integer x3 =  MOD.Divide(3 * x * x + a, 2 * y);
-  x3 = MOD.Square(x3);
-  x3 = (x3 -  2 * x);
+	if (Infinity)
+	return *this;
+	if (*this == (-(*this)))
+	return Point(0, 0, true);
+	CryptoPP::Integer t = (3 * x * x + a).Modulo(p);
+	CryptoPP::Integer z = (2 * y).Modulo(p);
 
-  CryptoPP::Integer y3 =  MOD.Divide(3 * x * x + a, 2 * y);
-  y3 = MOD.Multiply(y3, x - x3);
-  y3 = (y3 - y);
-  
-  return Point(x3, y3);
+	CryptoPP::Integer x3 =  MOD.Divide(t, z);
+	x3 = MOD.Square(x3);
+	x3 = (x3 -  2 * x);
+
+	CryptoPP::Integer y3 =  MOD.Divide(t, z);
+	y3 = y3 * (x - x3);
+	y3 = (y3 - y);
+
+	return Point(x3, y3);
 }
 
 Point operator*(CryptoPP::Integer n, const Point &P)

@@ -6,7 +6,6 @@
 #include "cryptopp/integer.h"
 #include "cryptopp/modarith.h"
 #include "cryptopp/cryptlib.h"
-
 #include "params.h"
 
 #ifdef JACOBI
@@ -15,6 +14,9 @@
 #elif PROJECTIVE
   #define HFILE "projectivePoint.h"
   #define BuildName "PROJECTIVE"
+#elif STANDART
+  #define HFILE "point.h"
+  #define BuildName "STANDART"
 #else
   #define HFILE "point.h"
   #define BuildName "STANDART"
@@ -41,7 +43,7 @@ int main( int, char** )
     generatorP = Point(pX, pY);
   Step1:
     k = Integer(rng, 0, Q - 1);                   //Выбрать случайное целое число k in [1, q-1].
-    //cout << k << endl;
+    //cout << k << endl << generatorP << endl;
     Point pointQ = k * generatorP;                //Вычислить k*P = (x1,y1) } r = x_1 mod q
     //cout << "pointQ" << pointQ << endl;
     r = (pointQ.getX()).Modulo(Q);                //и положить в r=x1 mod q
@@ -65,7 +67,7 @@ int main( int, char** )
     assert(V.getX().Modulo(Q) == r);
   }
   stop = clock();
-  cout << BuildName<<"\t\t" << (float)(stop - start)/ CLOCKS_PER_SEC << endl;
+  cout << "запуск 1000 подписей " << CURVENAME << " " << BuildName<<"\t\t" << (float)(stop - start)/ CLOCKS_PER_SEC << " в секундах" << endl;
   return 0;
 
 }

@@ -1,0 +1,12 @@
+Sum test: 100000 раз CURVE1 STANDART		2.54269 в секундах
+Sum test: 100000 раз CURVE1 PROJECTIVE		1.36557 в секундах
+Sum test: 100000 раз CURVE1 JACOBI			1.59915 в секундах
+Sum test: 100000 раз CURVE2 STANDART		2.7751 в секундах
+Sum test: 100000 раз CURVE2 PROJECTIVE		1.27589 в секундах
+Sum test: 100000 раз CURVE2 JACOBI			1.4112 в секундах
+Sum test: 100000 раз CURVE3 STANDART		2.86612 в секундах
+Sum test: 100000 раз CURVE3 PROJECTIVE		1.69755 в секундах
+Sum test: 100000 раз CURVE3 JACOBI			2.2307 в секундах
+Sum test: 100000 раз CURVE4 STANDART		4.34826 в секундах
+Sum test: 100000 раз CURVE4 PROJECTIVE		1.47126 в секундах
+Sum test: 100000 раз CURVE4 JACOBI			1.61019 в секундах
