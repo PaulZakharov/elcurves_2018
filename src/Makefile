@@ -1,9 +1,5 @@
 D=STANDART
 NAME=sumTest
-qwert:
-	for number in 1 2 3 4; do \
-			echo CURVE$$number; \
-	done
 
 run: compile
 	for NUMBER in 1 2 3 4; do \
