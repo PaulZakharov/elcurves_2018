@@ -2,7 +2,7 @@ D=STANDART
 NAME=sumTest
 
 run: compile
-	for NUMBER in 1 2 3 4; do \
+	for NUMBER in 1 2 3 4 5; do \
 		./$(NAME)STANDARTcurve$$NUMBER 							>> result$(NAME).txt;\
 		./$(NAME)PROJECTIVEcurve$$NUMBER						>> result$(NAME).txt;\
 		./$(NAME)JACOBIcurve$$NUMBER							>> result$(NAME).txt;\
@@ -10,14 +10,14 @@ run: compile
 	make clean
 
 compile: object
-	for NUMBER in 1 2 3 4; do \
+	for NUMBER in 1 2 3 4 5; do \
 		g++ $(NAME)STANDARTcurve$$NUMBER.o	 	-o $(NAME)STANDARTcurve$$NUMBER 		-lcryptopp;\
 		g++ $(NAME)PROJECTIVEcurve$$NUMBER.o 	-o $(NAME)PROJECTIVEcurve$$NUMBER 		-lcryptopp;\
 		g++ $(NAME)JACOBIcurve$$NUMBER.o 		-o $(NAME)JACOBIcurve$$NUMBER 			-lcryptopp;\
 	done
 
 object: $(NAME).cpp
-	for NUMBER in 1 2 3 4; do \
+	for NUMBER in 1 2 3 4 5; do \
 		g++ $(NAME).cpp -c 			-o $(NAME)STANDARTcurve$$NUMBER.o 		-lcryptopp 	-D STANDART 	-D CURVE$$NUMBER;\
 		g++ $(NAME).cpp -c  		-o $(NAME)JACOBIcurve$$NUMBER.o 		-lcryptopp	-D JACOBI		-D CURVE$$NUMBER;\
 		g++ $(NAME).cpp -c 			-o $(NAME)PROJECTIVEcurve$$NUMBER.o 	-lcryptopp 	-D PROJECTIVE 	-D CURVE$$NUMBER;\
