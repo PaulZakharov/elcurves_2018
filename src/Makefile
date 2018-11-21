@@ -4,8 +4,11 @@ NAME=sumTest
 run: compile
 	for NUMBER in 1 2 3 4 5; do \
 		./$(NAME)STANDARTcurve$$NUMBER 							>> result$(NAME).txt;\
+		echo $(NAME)STANDARTcurve$$NUMBER executed;\
 		./$(NAME)PROJECTIVEcurve$$NUMBER						>> result$(NAME).txt;\
+		echo $(NAME)PROJECTIVEurve$$NUMBER executed;\
 		./$(NAME)JACOBIcurve$$NUMBER							>> result$(NAME).txt;\
+		echo $(NAME)JACOBIcurve$$NUMBER executed;\
 	done
 	make clean
 

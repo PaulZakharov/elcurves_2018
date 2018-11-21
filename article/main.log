@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  21 NOV 2018 16:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  21 NOV 2018 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -490,24 +490,24 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: subfigure package is loaded.
@@ -536,8 +536,7 @@ Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
@@ -545,7 +544,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 35.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -555,9 +554,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count132
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -598,64 +597,64 @@ LaTeX Info: Redefining \nameref on input line 34.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 46.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 46.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.81503pt
-(hyperref)                removed on input line 45.
+(hyperref)                removed on input line 46.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.81503pt
-(hyperref)                removed on input line 45.
+(hyperref)                removed on input line 46.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 45.
+LaTeX Font Info:    Try loading font information for U+msa on input line 46.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 45.
+LaTeX Font Info:    Try loading font information for U+msb on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 45.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 45.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 46.
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 45.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 46.
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <6> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 45.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 45.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 46.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 46.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 46.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
-LaTeX Font Info:    Try loading font information for PD1+cmr on input line 45.
-LaTeX Font Info:    No file PD1cmr.fd. on input line 45.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 46.
+LaTeX Font Info:    Try loading font information for PD1+cmr on input line 46.
+LaTeX Font Info:    No file PD1cmr.fd. on input line 46.
 
 
 LaTeX Font Warning: Font shape `PD1/cmr/m/n' undefined
-(Font)              using `PD1/pdf/m/n' instead on input line 45.
+(Font)              using `PD1/pdf/m/n' instead on input line 46.
 
-LaTeX Font Info:    Try loading font information for PU+cmr on input line 45.
-LaTeX Font Info:    No file PUcmr.fd. on input line 45.
+LaTeX Font Info:    Try loading font information for PU+cmr on input line 46.
+LaTeX Font Info:    No file PUcmr.fd. on input line 46.
 
 LaTeX Font Warning: Font shape `PU/cmr/m/n' undefined
-(Font)              using `PU/pdf/m/n' instead on input line 45.
+(Font)              using `PU/pdf/m/n' instead on input line 46.
 
-LaTeX Font Info:    Try loading font information for U+euex on input line 45.
+LaTeX Font Info:    Try loading font information for U+euex on input line 46.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuex.fd
 File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
 )
@@ -747,44 +746,121 @@ File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 233.
-[5])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
+(babel)             in language  on input line 240.
+[5]
+Package epstopdf Info: Source file: <./familia/ecdsa_times.eps>
+(epstopdf)                    date: 2018-11-21 22:17:49
+(epstopdf)                    size: 37316 bytes
+(epstopdf)             Output file: <./familia/ecdsa_times-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2018-11-21 22:18:29
+(epstopdf)                    size: 21721 bytes
+(epstopdf)             Command: <repstopdf --outfile=./familia/ecdsa_times-eps-
+converted-to.pdf ./familia/ecdsa_times.eps>
+(epstopdf)             \includegraphics on input line 241.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./familia/ecdsa_times-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./familia/ecdsa_times-eps-converted-to.pdf, id=100, 867.24pt x 505.89pt>
+File: ./familia/ecdsa_times-eps-converted-to.pdf Graphic file (type pdf)
+<use ./familia/ecdsa_times-eps-converted-to.pdf>
+Package pdftex.def Info: ./familia/ecdsa_times-eps-converted-to.pdf  used on in
+put line 241.
+(pdftex.def)             Requested size: 452.9679pt x 264.2299pt.
+Package epstopdf Info: Source file: <./familia/sum_times.eps>
+(epstopdf)                    date: 2018-11-21 22:18:16
+(epstopdf)                    size: 38236 bytes
+(epstopdf)             Output file: <./familia/sum_times-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-21 22:19:28
+(epstopdf)                    size: 23446 bytes
+(epstopdf)             Command: <repstopdf --outfile=./familia/sum_times-eps-co
+nverted-to.pdf ./familia/sum_times.eps>
+(epstopdf)             \includegraphics on input line 242.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./familia/sum_times-eps-converted-to.pdf): PDF i
+nclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./familia/sum_times-eps-converted-to.pdf, id=101, 867.24pt x 505.89pt>
+File: ./familia/sum_times-eps-converted-to.pdf Graphic file (type pdf)
+<use ./familia/sum_times-eps-converted-to.pdf>
+Package pdftex.def Info: ./familia/sum_times-eps-converted-to.pdf  used on inpu
+t line 242.
+(pdftex.def)             Requested size: 452.9679pt x 264.2299pt.
+Package epstopdf Info: Source file: <./familia/double_times.eps>
+(epstopdf)                    date: 2018-11-21 22:18:18
+(epstopdf)                    size: 38331 bytes
+(epstopdf)             Output file: <./familia/double_times-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2018-11-21 22:19:28
+(epstopdf)                    size: 22318 bytes
+(epstopdf)             Command: <repstopdf --outfile=./familia/double_times-eps
+-converted-to.pdf ./familia/double_times.eps>
+(epstopdf)             \includegraphics on input line 243.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./familia/double_times-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./familia/double_times-eps-converted-to.pdf, id=102, 867.24pt x 505.89pt>
+File: ./familia/double_times-eps-converted-to.pdf Graphic file (type pdf)
+<use ./familia/double_times-eps-converted-to.pdf>
+Package pdftex.def Info: ./familia/double_times-eps-converted-to.pdf  used on i
+nput line 243.
+(pdftex.def)             Requested size: 452.9679pt x 264.2299pt.
+
+Overfull \hbox (17.0pt too wide) in paragraph at lines 241--244
+[][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 54.
+(babel)             in language  on input line 245.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 54.
+(babel)             in language  on input line 245.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 54.
+(babel)             in language  on input line 245.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 54.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
+(babel)             in language  on input line 245.
+ [6 <./familia/ecdsa_times-eps-converted-to.pdf> <./familia/sum_times-eps-conve
+rted-to.pdf>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 55.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 55.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 55.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 55.
+ [7 <./familia/double_times-eps-converted-to.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 9DFFA8CCE182D3534EF26C589B593F28;588.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 13138 strings out of 494283
- 185478 string characters out of 6169690
- 265871 words of memory out of 5000000
- 16235 multiletter control sequences out of 15000+600000
+ 13158 strings out of 494283
+ 186182 string characters out of 6169690
+ 265805 words of memory out of 5000000
+ 16248 multiletter control sequences out of 15000+600000
  29220 words of font info for 83 fonts, out of 8000000 for 9000
  497 hyphenation exceptions out of 8191
  36i,11n,42p,3822b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -812,10 +888,10 @@ ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb>
-Output written on main.pdf (6 pages, 266057 bytes).
+Output written on main.pdf (7 pages, 322350 bytes).
 PDF statistics:
- 623 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
- 9 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 795 PDF objects out of 1000 (max. 8388607)
+ 202 compressed objects within 3 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 24 words of extra memory for PDF output out of 10000 (max. 10000000)
 
